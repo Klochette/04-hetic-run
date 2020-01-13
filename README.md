@@ -1,4 +1,4 @@
-# hetic-web1p2022-01
+# HETIC RUN
 
 Projet Ecole
 
@@ -10,9 +10,9 @@ Contributeurs :
 - Lucas MASSOL : Design
 - Antonin LE PANSE DENEUX : Design
 
-=> "Création d'un jeu vidéo avec le langage Javascript"
+ ___"Création d'un jeu vidéo en Javascript"___
 
-- Type de jeu vidéo choisi : Runner
+- Type de jeu vidéo choisi : Runner / Plateformes
 - Support : desktop 1280 x 750
 
 Temps imparti : 4 jours de conception
@@ -20,5 +20,4 @@ Temps imparti : 4 jours de conception
 
 Obligations :
 
-- Intégration avec Parcel / Sass 
 - Développement avec Javascript
