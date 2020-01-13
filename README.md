@@ -10,7 +10,7 @@ Contributeurs :
 - Lucas MASSOL : Design
 - Antonin LE PANSE DENEUX : Design
 
-"Création d'un jeu vidéo en Javascript"
+ ___"Création d'un jeu vidéo en Javascript"___
 
 - Type de jeu vidéo choisi : Runner / Plateformes
 - Support : desktop 1280 x 750
