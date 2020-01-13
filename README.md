@@ -20,5 +20,4 @@ Temps imparti : 4 jours de conception
 
 Obligations :
 
-- Intégration avec Parcel / Sass 
 - Développement avec Javascript
