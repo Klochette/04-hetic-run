@@ -1,0 +1,655 @@
+* {
+  box-sizing: border-box; }
+
+button:focus {
+  outline: 0; }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
+@font-face {
+  font-family: "PostNoBillsJaffna";
+  src: url("/PostNoBillsJaffna-SemiBold.a2a7893f.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/Poppins-Regular.40dc1872.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/Poppins-Bold.5da2397d.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/Poppins-Italic.9ed82cf8.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+.homePageIcon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-image: url("/home-symbol.8b72fbaf.png");
+  background-repeat: no-repeat; }
+
+.soundControlIcon {
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-image: url("/volumeOnBlack.f401ab79.svg");
+  background-repeat: no-repeat; }
+
+.buttonCredits {
+  font-family: "Poppins", arial, serif;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  padding: 0; }
+  .buttonCredits:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; }
+
+.homePage {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.homePage__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.homePage__title {
+  font-family: PostNoBillsJaffna, arial, serif;
+  font-size: 140px;
+  margin: 50px 0 40px 0;
+  text-transform: uppercase;
+  color: #6bd85a; }
+
+.homePage__subTitle {
+  font-family: "Poppins", arial, serif;
+  font-size: 36px;
+  margin-bottom: 30px; }
+
+.homePage__gamePresentation {
+  max-width: 80%;
+  margin: 0 56px 60px 56px;
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  text-align: center;
+  line-height: 36px; }
+
+.homePage__buttonHowToPlay {
+  width: 327px;
+  height: 60px;
+  background-color: #8b2a76;
+  margin-bottom: 45px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 15px #8b2a76;
+  transition: box-shadow 0.2s, transform 0.2s; }
+  .homePage__buttonHowToPlay:hover {
+    box-shadow: 0 0 15px 5px #8b2a76;
+    transform: scale(1.05); }
+
+.homePage__buttonPlay {
+  width: 524px;
+  height: 110px;
+  background-color: #6bd85a;
+  padding: 0;
+  border: none;
+  border-radius: 40px;
+  font-family: "Poppins", arial, serif;
+  font-size: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 15px #6bd85a;
+  transition: box-shadow 0.2s, transform 0.2s; }
+  .homePage__buttonPlay:hover {
+    box-shadow: 0 0 15px 5px #6bd85a;
+    transform: scale(1.05); }
+
+body.howToPlay {
+  background-color: #8b2a76; }
+
+.howToPlay {
+  height: 100vh;
+  max-width: 650px;
+  margin: 0 auto; }
+
+.howToPlay__title {
+  font-family: PostNoBillsJaffna, arial, serif;
+  font-size: 80px;
+  margin: 70px 0 20px 0;
+  text-transform: uppercase;
+  color: #6bd85a;
+  text-align: center; }
+
+.howToPlay__commandImg {
+  padding-left: 300px;
+  margin-top: 50px; }
+
+.howToPlay__subTitle {
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center; }
+
+.howToPlay__bonusMalus {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px; }
+
+.howToPlay__listItems {
+  font-family: "Poppins", arial, serif;
+  font-size: 16px;
+  color: white;
+  line-height: 40px;
+  margin-top: 20px; }
+
+.listItemsBonus li:nth-child(1) {
+  list-style-image: url("/gourde.8f48806d.png"); }
+
+.listItemsBonus li:nth-child(2) {
+  list-style-image: url("/birdes.85cc13fa.png"); }
+
+.listItemsObstacles li:nth-child(1) {
+  list-style-image: url("/chaise.684dc597.png"); }
+
+.listItemsObstacles li:nth-child(2) {
+  list-style-image: url("/table.36319c33.png"); }
+
+.listItemsObstacles li:nth-child(3) {
+  list-style-image: url("/video_proj.acb836f6.png"); }
+
+.listItemsObstacles li:nth-child(4) {
+  list-style-image: url("/flaque.856b88d9.png"); }
+
+@keyframes jump-action {
+  0% {
+    bottom: 180px; }
+  50% {
+    bottom: 360px; } }
+
+@keyframes obstaclesmove {
+  from {
+    transform: translateX(0px); }
+  to {
+    transform: translateX(-1500px); } }
+
+@keyframes enemyMove {
+  from {
+    transform: translateX(1280px); }
+  to {
+    transform: translateX(-60px); } }
+
+@keyframes defile {
+  from {
+    background-position: 0px 0px; }
+  to {
+    background-position: -6395px 0px; } }
+
+body.game {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/game_page.57c78082.png);
+  animation: defile 10s linear infinite; }
+
+.try {
+  height: 750px;
+  width: 100%;
+  position: relative; }
+
+.james {
+  background: url("/run.642e829b.gif") no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 180px;
+  left: 50px; }
+
+.jump {
+  animation-name: jump-action;
+  animation-duration: 1s; }
+
+.bend {
+  background: url("/roll.48619179.gif") no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 40px;
+  left: 60px; }
+
+.obstacles {
+  position: absolute;
+  right: -200px;
+  bottom: 180px; }
+
+.obstacles__coffee {
+  background: url("/coffee.78589eb2.png") no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 49px; }
+
+.obstacles__table {
+  background: url("/table.8af924f6.png") no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 40px; }
+
+.obstacles__chair {
+  background: url("/chair.11e3e4f7.png") no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 60px; }
+
+.obstacles__proj {
+  background: url("/projecteur.c7d0eca9.gif") no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 220px;
+  bottom: 230px; }
+
+.obstacles__move {
+  animation: linear obstaclesmove 4s; }
+
+.ennemy {
+  background: url("/student.2c761ebe.gif") no-repeat;
+  background-size: cover;
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  bottom: 180px;
+  left: 0px; }
+
+.ennemy__move {
+  animation: linear enemyMove 50s forwards; }
+
+.bonus {
+  width: 50px;
+  height: 50px;
+  bottom: 190px;
+  position: absolute; }
+
+.bonus--birdies {
+  background: url("/beer.0ecc8ee8.png") no-repeat;
+  background-size: cover;
+  width: 16px;
+  height: 50px; }
+
+.bonus--water {
+  background: url("/gourd.32b26ddc.png") no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 50px; }
+
+.bonus__move {
+  animation: linear enemyMove 4s forwards; }
+
+.invicible {
+  background: url("/invicible.062f4466.gif") no-repeat;
+  background-size: cover; }
+
+.score {
+  color: #2cae2c; }
+
+.money {
+  background: url("/money.3b80c8ef.png") no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 50px;
+  left: 110px;
+  top: 5px;
+  position: absolute; }
+
+.title_game_page {
+  text-align: center;
+  font-weight: bold;
+  font-size: 65px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif; }
+
+.sous-titre_game_page {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 45px;
+  font-family: "Poppins", sans-serif; }
+
+.try__menu {
+  text-align: right;
+  margin-top: -15px;
+  line-height: 50px;
+  margin-right: 15px; }
+
+.soundControlIcon {
+  width: 55px;
+  margin-top: -15px;
+  margin-right: -5px; }
+
+.homePageIcon--gamePage {
+  width: 50px;
+  margin-top: 35px;
+  margin-right: -5px;
+  background-image: url("/Home.2ad03eac.png");
+  position: static; }
+
+.try__restartIcon {
+  width: 38px;
+  margin-top: 10px;
+  margin-right: 3px; }
+
+.score_temps {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -140px;
+  margin-left: 10px; }
+
+.endGame {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center; }
+
+.endGame__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.endGame__title {
+  font-family: PostNoBillsJaffna, arial, serif;
+  font-size: 120px;
+  margin: 30px 0 30px 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: white; }
+
+.endGame__result {
+  font-family: "Poppins", arial, serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #8b2a76;
+  margin-bottom: 40px; }
+
+.endGame__text {
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 56px; }
+
+.endGame__imageContent {
+  display: flex; }
+  .endGame__imageContent .endGame__image {
+    width: 320px;
+    height: 320px;
+    margin-top: -30px;
+    margin-left: 80px; }
+
+.endGame__buttonRestart {
+  width: 450px;
+  height: 78px;
+  margin-top: -60px;
+  background-color: #6bd85a;
+  padding: 0;
+  border: none;
+  border-radius: 40px;
+  font-family: "Poppins", arial, serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 15px #6bd85a;
+  transition: box-shadow 0.2s, transform 0.2s; }
+  .endGame__buttonRestart:hover {
+    box-shadow: 0 0 15px 5px #6bd85a;
+    transform: scale(1.05); }
+
+body.victory {
+  background-color: black; }
+
+.victory {
+  width: 650px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.victory__title {
+  font-family: PostNoBillsJaffna, arial, serif;
+  color: white;
+  text-align: center;
+  font-size: 120px;
+  margin: 60px 0 30px 0;
+  text-transform: uppercase; }
+
+.victory__result {
+  font-family: "Poppins", arial, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #8b2a76;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  text-align: center; }
+
+.victory__text {
+  font-family: "Poppins", arial, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 56px;
+  color: white;
+  margin-top: 30px; }
+
+.victory__buttonRestart {
+  width: 450px;
+  height: 78px;
+  margin-top: -40px;
+  background-color: #6bd85a;
+  padding: 0;
+  border: none;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 15px #6bd85a;
+  transition: box-shadow 0.2s, transform 0.2s;
+  margin-top: 50px; }
+  .victory__buttonRestart:hover {
+    box-shadow: 0 0 15px 5px #6bd85a;
+    transform: scale(1.05); }
+
+.credits {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.credits__title {
+  font-family: PostNoBillsJaffna, arial, serif;
+  font-size: 120px;
+  margin: 20px 0 56px 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: white; }
+
+.credits__names {
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  line-height: 36px; }
+  .credits__names li {
+    margin-bottom: 40px; }
+
+
+/*# sourceMappingURL=/styles.5c8f3eab.css.map */
