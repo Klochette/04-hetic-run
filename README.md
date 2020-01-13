@@ -10,9 +10,9 @@ Contributeurs :
 - Lucas MASSOL : Design
 - Antonin LE PANSE DENEUX : Design
 
-=> "Création d'un jeu vidéo avec le langage Javascript"
+"Création d'un jeu vidéo en Javascript"
 
-- Type de jeu vidéo choisi : Runner
+- Type de jeu vidéo choisi : Runner / Plateformes
 - Support : desktop 1280 x 750
 
 Temps imparti : 4 jours de conception
