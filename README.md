@@ -9,6 +9,8 @@
   - Imene BEN-RACHID : Intégration / Design
   - Lucas MASSOL : Design
   - Antonin LE PANSE DENEUX : Design </br>
+  
+## Caractéristiques :
 
 - Type de jeu vidéo choisi : 
   - Runner / Plateformes
