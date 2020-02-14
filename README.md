@@ -1,13 +1,14 @@
 # HETIC RUN
 
+ ___"Création d'un jeu vidéo en Javascript"___
+ 
+
 ## Membres :
 - Melina CHAMAYOU : JavaScript
 - Quentin TROUVE : Intégration / JavaScript
 - Imene BEN-RACHID : Intégration / Design
 - Lucas MASSOL : Design
 - Antonin LE PANSE DENEUX : Design
-
- ___"Création d'un jeu vidéo en Javascript"___
 
 - Type de jeu vidéo choisi : 
   - Runner / Plateformes
@@ -22,3 +23,6 @@
 
 - Développement avec Javascript
 - Intégration en SCSS
+
+## Page web 
+[hetic-run.netlify.com](https://hetic-run.netlify.com/)
