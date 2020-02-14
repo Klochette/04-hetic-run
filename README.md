@@ -4,8 +4,8 @@ Projet Ecole
 
 Contributeurs :
 
-- Melina CHAMAYOU : JS
-- Quentin TROUVE : Intégration / JS
+- Melina CHAMAYOU : JavaScript
+- Quentin TROUVE : Intégration / JavaScript
 - Imene BEN-RACHID : Intégration / Design
 - Lucas MASSOL : Design
 - Antonin LE PANSE DENEUX : Design
