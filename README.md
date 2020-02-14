@@ -10,13 +10,13 @@
  ___"Création d'un jeu vidéo en Javascript"___
 
 - Type de jeu vidéo choisi : 
- - Runner / Plateformes
+  - Runner / Plateformes
 - Support : 
- - desktop 1280 x 750
+  - desktop 1280 x 750
 
 - Temps imparti : 
- - 4 jours de conception
- - 15 minutes de soutenance orale
+  - 4 jours de conception
+  - 15 minutes de soutenance orale
 
 ## Obligations :
 
